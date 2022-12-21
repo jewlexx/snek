@@ -11,7 +11,13 @@ config_version=4
 [application]
 
 config/name="Snek"
+run/main_scene="res://Main Scene.tscn"
 config/icon="res://icon.png"
+
+[compression]
+
+formats/zlib/compression_level=9
+formats/gzip/compression_level=9
 
 [gui]
 
@@ -23,4 +29,12 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+threads/thread_model=2
+vram_compression/import_bptc=true
+vram_compression/import_etc=true
+vram_compression/import_pvrtc=true
+gles3/shaders/shader_compilation_mode=2
+gles3/shaders/shader_compilation_mode.mobile=2
+gles3/shaders/shader_compilation_mode.web=2
+environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
 environment/default_environment="res://default_env.tres"
