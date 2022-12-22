@@ -8,6 +8,46 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Button",
+"class": "ControllerButton",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/Button.gd"
+}, {
+"base": "Node",
+"class": "ControllerMapper",
+"language": "GDScript",
+"path": "res://addons/controller_icons/Mapper.gd"
+}, {
+"base": "Resource",
+"class": "ControllerSettings",
+"language": "GDScript",
+"path": "res://addons/controller_icons/Settings.gd"
+}, {
+"base": "Sprite",
+"class": "ControllerSprite",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/Sprite.gd"
+}, {
+"base": "Sprite3D",
+"class": "ControllerSprite3D",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/Sprite3D.gd"
+}, {
+"base": "TextureRect",
+"class": "ControllerTextureRect",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/TextureRect.gd"
+} ]
+_global_script_class_icons={
+"ControllerButton": "",
+"ControllerMapper": "",
+"ControllerSettings": "",
+"ControllerSprite": "",
+"ControllerSprite3D": "",
+"ControllerTextureRect": ""
+}
+
 [application]
 
 config/name="Snek"
@@ -18,6 +58,14 @@ config/icon="res://icon.png"
 
 formats/zlib/compression_level=9
 formats/gzip/compression_level=9
+
+[debug]
+
+settings/stdout/print_fps=true
+
+[global]
+
+stdout=false
 
 [gui]
 
