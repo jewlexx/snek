@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/snake_head.png-fcf6e0602606905ea70631d1bcbbc309.stex"
+path="res://.import/snake_body.png-12fbfbda9de60cf3fcce5042333ddbba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/snake_head.png"
-dest_files=[ "res://.import/snake_head.png-fcf6e0602606905ea70631d1bcbbc309.stex" ]
+source_file="res://snake/tiles/snake_body.png"
+dest_files=[ "res://.import/snake_body.png-12fbfbda9de60cf3fcce5042333ddbba.stex" ]
 
 [params]
 
