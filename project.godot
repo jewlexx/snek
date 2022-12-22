@@ -65,7 +65,7 @@ settings/stdout/print_fps=true
 
 [global]
 
-stdout=false
+SnakeSize=0.1
 
 [gui]
 

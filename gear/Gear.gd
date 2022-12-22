@@ -19,6 +19,7 @@ func _ready():
 
 
 func _on_Gear_area_entered(area):
+	print(area.name)
 	if (area.name == "Head"):
 		queue_free()
 		emit_signal("gear_used")

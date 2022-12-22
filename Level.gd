@@ -27,3 +27,5 @@ func add_gear():
 func spawn_new():
 	score += 1
 	add_gear()
+	
+	get_node("Head").add_tail()
