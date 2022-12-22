@@ -20,7 +20,7 @@ func add_gear():
 	
 	instance.connect("gear_used", self, "spawn_new")
 	
-	add_child(instance)
+	call_deferred("add_child", instance)
 	
 	print("Added new gear at: ", instance.position)
 	

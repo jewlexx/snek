@@ -1,7 +1,7 @@
 extends Node2D
 
 var direction = Vector2(0,0)
-var gap = -100
+var gap = 100
 var next_direction = Vector2(1,0)
 var previous_direction = Vector2(1,0)
 # Speed multiplier, applied to direction
@@ -54,4 +54,4 @@ func add_tail():
 		instance.current_direction = direction
 		instance.position = previous_tail.position + direction * gap
 		
-	add_child(instance)
+	call_deferred("add_child", instance)

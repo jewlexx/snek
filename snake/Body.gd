@@ -21,4 +21,5 @@ func add_to_tail(head_position, direction):
 
 func _on_Body_area_entered(area):
 	if (area.name == "Head"):
+		print("Died")
 		get_tree().reload_current_scene()
